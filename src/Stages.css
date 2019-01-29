@@ -1,0 +1,39 @@
+.stages {
+  width: 100%;
+}
+
+.stage-details {
+  width: 100%;
+  height: 100px;
+  background-color: #f2f2f2;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.stage-box {
+  display: flex;
+  height: 100px;
+}
+
+p.stage-text {
+  background: #fff;
+  position: absolute;
+  margin: 0 auto;
+  max-width: 190px;
+  left: 0;
+  right: 0;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.main-stage {
+  padding: 40px 0px;
+}
+
+.stage-details p:nth-child(1) {
+  margin: 12px 10px;
+}
+
+.stage-details p:nth-child(2) {
+  margin: 30px 10px;
+}

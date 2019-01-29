@@ -1,0 +1,12 @@
+.stage-colors p {
+  padding: 39px 7PX;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.color-component {
+  width: 100px;
+  height: 100px;
+}
