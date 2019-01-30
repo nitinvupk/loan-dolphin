@@ -93,13 +93,15 @@ class StageComponent extends Component {
                   <p>{update.activity_date}</p>
                 </div>
               </div>
-              <div className='text-center main-stage'>
-                <p className='stage-text'>{stage.name}</p>
-                <hr />
-              </div>
             </div>
           )
         })}
+        {sortedUpdates[stage.name].length &&
+          <div className='text-center main-stage'>
+            <p className='stage-text'>{stage.name}</p>
+            <hr />
+          </div>
+        }
       </div>
     );
   }
